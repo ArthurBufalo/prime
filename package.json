@@ -1,0 +1,27 @@
+{
+  "name": "prime",
+  "version": "1.0.0",
+  "description": "Find prime numbers!",
+  "main": "prime.js",
+  "scripts": {
+    "test": "nodemon -x \"tsc prime.ts || exit 1\" -e .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBufalo/prime.git"
+  },
+  "author": "Arthur Bufalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurBufalo/prime/issues"
+  },
+  "homepage": "https://github.com/ArthurBufalo/prime#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "enquirer": "^2.3.6",
+    "text-align": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
